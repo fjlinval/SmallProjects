@@ -1,0 +1,50 @@
+h1 {
+    /* border: 0.05em solid; */
+    margin-right: 9em;
+    margin-left: 9em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    padding: 0;
+    margin: 0;
+}
+.instrucciones {
+    margin-right: 9em;
+    margin-left: 9em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+    border: 0.05em solid;
+    padding: 0.5em;
+}
+.instrucciones p{
+    font-size: 3em;
+    margin:0;
+    text-align: center;
+}
+.instrucciones button{
+    font-size: 2em;
+    align-self: center;
+    margin: 5%;
+}
+#wrap1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+#btncomenzar {
+    margin-left: 42%;
+    font-size: 2em;
+}
+#ul1 {
+    margin-right: 9em;
+    margin-left: 9em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:justify;
+    padding: 0.5em;
+}
