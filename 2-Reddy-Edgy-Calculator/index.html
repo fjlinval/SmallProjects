@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <section id="section-1">
+        <!--DIV GRANDE 1 CALCULADORA-->
+        <div id="calculator">
+            <div class="calcTitle grid-col-span-6">
+                <h2>CALCULADORA</h2>
+            </div>
+
+            <!--INPUTS-->
+            <div class="grid-col-span-3" style="text-align: right;">
+                <input class="inputstyle" id="inputcalc1" type="number" style="text-align: right;">
+            </div>
+            <div class="grid-col-span-3">
+                <input class="inputstyle" id="inputcalc2" type="number">
+            </div>
+
+            <!--BOTONES +-X/ -->
+            <div class="grid-col-span-3 grid-col-template-4 grid-col-gap">
+                <div class="grid-col-span-2">
+                    <button class="btnstyle" id="btn+" onclick="basicOperationNum(1)">+</button>
+                </div>
+                <div class="grid-col-span-2">
+                    <button class="btnstyle" id="btn-" onclick="basicOperationNum(2)">-</button>
+                </div>
+            </div>
+
+            <div class="grid-col-span-3 grid-col-template-4 grid-col-gap">
+                <div class="grid-col-span-2">
+                    <button class="btnstyle" id="btnx" onclick="basicOperationNum(3)">x</button>
+                </div>
+                <div class="grid-col-span-2">
+                    <button class="btnstyle" id="btn/" onclick="basicOperationNum(4)">/</button>
+                </div>
+            </div>
+
+            <!--BOTONES potencia,raíz,absoluto,random -->
+            <button class="btnstyle grid-col-span-3" onclick="potenciaNum ()">potencia</button>
+            <button class="btnstyle grid-col-span-3" onclick="Raiz_AbsolutoYRandomNum (1)">raíz</button>
+            <button class="btnstyle grid-col-span-3" onclick="Raiz_AbsolutoYRandomNum (2)">random</button>
+            <button class="btnstyle grid-col-span-3" onclick="Raiz_AbsolutoYRandomNum (3)">absoluto</button>
+
+            <!--RESULTADO-->
+            <p class="grid-col-span-6" id="resultText">Aquí aparecerá el resultado</p>
+
+            <!--BOTONES REDONDEO-->
+            <button class="btnstyle grid-col-span-2" onclick="RoundResult (1)">round</button>
+            <button class="btnstyle grid-col-span-2" onclick="RoundResult (2)">floor</button>
+            <button class="btnstyle grid-col-span-2" onclick="RoundResult (3)">ceil</button>
+
+        </div>
+        <!--DIV GRANDE 1 CALCULADORA FIN-->
+
+        <!--DIV GRANDE 2 INSTRUCCIONES-->
+        <div id="instructions">
+            <h2>Instrucciones:</h2>
+
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+        <!--DIV GRANDE 2 INSTRUCCIONES FIN-->
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
